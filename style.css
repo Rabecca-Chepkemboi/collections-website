@@ -1,0 +1,62 @@
+.pull{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 20%;
+}
+.board{
+    text-align: center;
+    font-size: 2em;
+}
+.group{
+    text-align: center;
+}
+.mud{
+    text-align: center;
+    padding: 12px 8px;
+    border-radius: 1em;
+}
+.groups{
+    text-align: center;
+}
+.cont{
+    width: 60%;
+    padding-left: 10%;
+    border-radius: 1em;
+}
+.wall{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+.vie{
+    text-align: center;
+    font-size: 1.2em;
+}
+/* .mal{
+    background-color: lightgrey;
+} */
+.pulls{
+    display: flex;
+    padding-left: 7%;
+}
+.mine{
+    color: red;
+}
+.me{
+    color: blue;
+}
+.blue{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.whitee{
+    padding-left: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+.que{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+.bin{
+    padding-left: 50%;
+}
